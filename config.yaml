@@ -6,4 +6,6 @@ parsers:
   - file: ./parsers/listings.rb
     page_type: listings
     disabled: false
- 
+ - page_type: details
+    file: ./parsers/details.rb
+    disabled: false
