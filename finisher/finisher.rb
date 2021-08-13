@@ -1,4 +1,4 @@
-collections = DataHen::Client::ScraperJobOutput.new.collections("my_ebay")
+collections = Datahen::Client::ScraperJobOutput.new.collections("my_ebay")
 collection = collections.find{|collection| collection['collection'] == "listings" }
 if collection
     total = collection["outputs"]
