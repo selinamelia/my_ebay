@@ -1,4 +1,4 @@
-require "dh_easy/qa'
+require "dh_easy/qa"
 
 collections = Datahen::Client::ScraperJobOutput.new.collections("my_ebay")
 collection = collections.find{|collection| collection['collection'] == "listings" }
